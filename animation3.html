@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+         .set{ 
+            border: 2px solid red;
+            width: 200px;
+            height: 200px;
+            background: red;
+            position: fixed;
+            top: 0;
+            left: 0;
+            animation: set 0.5s alternate;
+        } 
+        .set1{
+            border: 2px solid red;
+            width: 200px;
+            height: 200px;
+            background: yellow;
+            position:fixed;
+            top: 0;
+            right: 0;
+            animation: set1 0.5s 1s alternate;
+
+        }
+        .set2{
+            border: 2px solid red;
+            width: 200px;
+            height: 200px;
+            background: green;
+            position:fixed;
+            bottom: 0;
+            right: 0;
+            animation: set2 0.5s 2s alternate;
+
+        }
+        .set3{
+            border: 2px solid red;
+            width: 200px;
+            height: 200px;
+            background: blue;
+            position:fixed;
+            bottom: 0;
+            left: 0px;
+            animation: set3 0.5s 3s alternate;
+          
+        }
+        .set4{
+            border: 2px solid red;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: pink;
+            z-index: 2;
+            position: absolute;
+            animation: set4  4s forwards linear;
+        }
+        @keyframes set4{
+            0%{
+                margin-left: 40px;
+                margin-top: 40px;
+            }
+            25%{
+                margin-left: 1350px;
+                margin-top: 40px;
+            
+            }
+            50%{
+                margin-left: 1350px;
+                margin-top: 550px;
+            }
+            75%{
+                margin-left: 40px;
+                margin-top: 550px;
+            }
+            100%{
+                margin-left: 40px;
+                margin-top: 40px;
+            }
+        }
+        @keyframes set{
+            0%{
+                width: 200px;
+                height: 200px;
+            }
+            100%{
+                width: 250px;
+                height: 250px;
+            }
+        }
+        @keyframes set1{
+            0%{
+                width: 200px;
+                height: 200px;
+            }
+            100%{
+                width: 250px;
+                height: 250px;
+            }
+        }
+        @keyframes set2{
+            0%{
+                width: 200px;
+                height: 200px;
+            }
+            100%{
+                width: 250px;
+                height: 250px;
+            }
+        }
+        @keyframes set3{
+            0%{
+                width: 200px;
+                height: 200px;
+            }
+            100%{
+                width: 250px;
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="set"></div>
+    <div class="set1"></div>
+    <div class="set2"></div>
+    <div class="set3"></div>
+    <div class="set4"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .set1{
+            border: 2px solid red;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            position: absolute;
+            top: 220px;
+            left:680px;
+            background: red;
+            z-index: 1;
+        }
+        .set2{
+            border: 2px solid red;
+            width: 130px;
+            height: 130px;
+            position: absolute;
+            top: 250px;
+            left: 715px;
+            background: rgb(246, 255, 0);
+            animation: alternate 5s 4s set2;
+            transform: rotateX(360deg);
+        }
+        @keyframes set2{
+            0%{
+                margin-left: 715px;
+                margin-top: 250px;
+            }
+            100%{
+                margin-left:1300px;
+                margin-top: 0px;
+                transform: rotate(360deg); 
+            }
+        }
+        .set3{
+            border: 2px solid red;
+            width: 130px;
+            height: 130px;
+            position: absolute;
+            top: 250px;
+            left: 715px;
+            background: rgb(0, 13, 255);
+        }
+        .set4{
+            border: 2px solid red;
+            width: 130px;
+            height: 130px;
+            position: absolute;
+            top: 250px;
+            left: 715px;
+            background: rgb(0, 255, 13);
+        }
+    </style>
+</head>
+<body>
+    <div class="set1"></div>
+    <div class="set2"></div>
+    <div class="set3"></div>
+    <div class="set4"></div>
+</body>
+</html>

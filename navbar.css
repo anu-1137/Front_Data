@@ -1,0 +1,91 @@
+.set{
+    border: 2px solid rgb(45, 56, 45); 
+    box-shadow: 0px 0px 10px 10px rgb(159, 51, 51) ;
+    border-radius: 5px;
+    /* background-color:#bce9bc; */
+}
+li{
+    display: inline-block;
+    margin-left: 120px;
+    border: 3px solid orange;
+    box-shadow:   8px 5px rgb(7, 7, 233);
+    border-radius: 8px;
+    padding: 5px;
+    background-color: antiquewhite;
+    
+
+}
+
+.volt img{
+    height: 350px;
+}
+
+     
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    height: 50px;
+}
+
+a:hover{
+    color: rgb(255, 51, 0);
+    font-family: cursive;
+    
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    color:#f00;
+    text-shadow: 7px 9PX 8px #0b0303,2PX 4PX 2PX #FF0;
+    font-size: 50px;
+    
+}
+.volt{
+    display: inline-block;
+}
+
+
+.volt{
+    border: 2px solid gold;
+    box-shadow: 2px 5px 10PX 4px rgb(195, 29, 29),2px 5px 8PX 4px #000;
+    width: 450px;
+    margin-left:30px;   
+}
+
+
+
+img{
+   width: 100%;
+}
+
+p{
+    text-align: center;
+}
+
+p:hover{
+font-size:18px;
+
+}
+
+
+h3{
+    color: #f00;
+    text-align: center;
+    text-shadow: 2px 5px 4px yellowgreen;
+}
+
+.box{
+display: inline-block;
+margin-left: 30px;
+}
+.tea{
+    /* border: 1px solid gray; */
+    box-shadow: 2px 3px 5px 3px gray;
+    display: inline-block;
+    width: 400px;
+    margin-left: 65px;
+    text-align: center;
+    border-radius: 20px;
+}
+  

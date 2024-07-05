@@ -1,0 +1,472 @@
+.main{
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: darkgreen;
+    animation-name: change;
+    animation-duration: 5s;
+    animation-direction: alternate ;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes change{
+   0%{
+        margin-left: 0px;
+
+
+    }
+    30%{
+        margin-top:500px ;
+        margin-left: 400px;
+    }
+    65%{
+        margin-top: 50px;
+        margin-left: 600px;
+    }
+    80%{
+        margin-top: 600px;
+        margin-left: 800px;
+    }
+    100%{
+        margin-top: 0px;
+        margin-left: 1300px;
+    }
+}
+
+.main1{
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: darkgreen;
+    animation-name: change1;
+    animation-direction: alternate ;
+    animation-duration: 5s;
+    animation-iteration-count:infinite ;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+ @keyframes change1{
+    0%{
+         margin-left: 0px;
+ 
+ 
+     }
+    15%{
+         margin-top:600px ;
+         margin-left: 300px;
+     }
+     100%{
+         margin-top: 60px;
+         margin-left: 1400px;
+     }
+ }
+ .main2{
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: darkgreen;
+    animation-name: change2;
+    animation-duration: 5s;
+    animation-iteration-count:infinite ;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate ;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+ @keyframes change2{
+    0%{
+         margin-left: 00px;
+         margin-top: 0px;
+
+     }
+     25%{
+         margin-top:500px ;
+         margin-left: 400px;
+     }
+       50%{
+         margin-top: 0px;
+         margin-left:600px;
+     }
+   75%{
+        margin-top: 500px;
+        margin-left: 800px;
+     }
+      100%{
+        margin-top: 0px;
+        margin-left: 1200px;
+     }  
+
+
+ }
+ .main3{
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: darkgreen;
+    animation-name: change3;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite ;
+    position: absolute;
+    animation-direction: alternate ;
+    top: 0px;
+    left: 0px;
+}
+ @keyframes change3{
+    0%{
+         margin-left: 0px;
+ 
+ 
+     }
+     50%{
+         margin-top:600px ;
+         margin-left: 700px;
+     }
+     100%{
+         margin-top: 0px;
+         margin-left: 1300px;
+     }
+ }
+ .main4{
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: darkgreen;
+    animation-name: change4;
+    animation-duration: 6s;
+    animation-iteration-count:infinite ;
+    animation-direction: alternate ;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+ @keyframes change4{
+    0%{
+         margin-left: 0px;
+ 
+ 
+     }
+     20%{
+         margin-top:500px ;
+         margin-left: 300px;
+     }
+     40%{
+         margin-top: 20px;
+         margin-left:700px;
+     }
+     60%{
+        margin-top: 600px;
+        margin-left: 1400px;
+
+     }
+ }
+ .main5{
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: darkgreen;
+    animation-name: change5;
+    animation-duration: 5s;
+    animation-iteration-count:infinite ;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    animation-direction: alternate ;
+    top: 0px;
+    left: 0px;
+}
+ @keyframes change5{
+    0%{
+         margin-left: 0px;
+ 
+ 
+     }
+     50%{
+         margin-top:600px ;
+         margin-left: 300px;
+     }
+     100%{
+         margin-top:300px;
+         margin-left: 1300px;
+     }
+ }
+ .main6{
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: darkgreen;
+    animation-name: change6;
+    animation-direction:reverse ;
+    animation-duration: 5s;
+    animation-iteration-count:infinite ;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+ @keyframes change6{
+    0%{
+         margin-left: 0px;
+ 
+ 
+     }
+     50%{
+         margin-top:600px ;
+         margin-left: 800px;
+     }
+     100%{
+         margin-top: 0px;
+         margin-left: 1450px;
+     }
+ }
+
+ .main7{
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: darkgreen;
+    animation-name: change7;
+    animation-duration: 5s;
+    animation-direction:reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes change7{
+   0%{
+        margin-left: 0px;
+
+
+    }
+    30%{
+        margin-top:500px ;
+        margin-left: 400px;
+    }
+    65%{
+        margin-top: 50px;
+        margin-left: 600px;
+    }
+    80%{
+        margin-top: 500px;
+        margin-left: 800px;
+    }
+    100%{
+        margin-top: 0px;
+        margin-left: 1300px;
+    }
+}
+
+.main8{
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: darkgreen;
+    animation-name: change8;
+    animation-direction: reverse ;
+    animation-duration: 5s;
+    animation-iteration-count:infinite ;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+ @keyframes change8{
+    0%{
+         margin-left: 0px;
+ 
+ 
+     }
+    15%{
+         margin-top:600px ;
+         margin-left: 300px;
+     }
+     100%{
+         margin-top: 60px;
+         margin-left: 1400px;
+     }
+ }
+ .main9{
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: darkgreen;
+    animation-name: change9;
+    animation-duration: 5s;
+    animation-iteration-count:infinite ;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse ;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+ @keyframes change9{
+    0%{
+         margin-left: 00px;
+         margin-top: 0px;
+
+     }
+     25%{
+         margin-top:500px ;
+         margin-left: 400px;
+     }
+       50%{
+         margin-top: 0px;
+         margin-left:600px;
+     }
+   75%{
+        margin-top: 500px;
+        margin-left: 800px;
+     }
+      100%{
+        margin-top: 0px;
+        margin-left: 1200px;
+     }  
+
+
+ }
+ .main10{
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: darkgreen;
+    animation-name: change10;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite ;
+    position: absolute;
+    animation-direction: reverse ;
+    top: 0px;
+    left: 0px;
+}
+ @keyframes change10{
+    0%{
+         margin-left: 0px;
+ 
+ 
+     }
+     50%{
+         margin-top:600px ;
+         margin-left: 700px;
+     }
+     100%{
+         margin-top: 0px;
+         margin-left: 1300px;
+     }
+ }
+ .main11{
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: darkgreen;
+    animation-name: change11;
+    animation-duration: 6s;
+    animation-iteration-count:infinite ;
+    animation-direction: reverse ;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+ @keyframes change11{
+    0%{
+         margin-left: 0px;
+ 
+ 
+     }
+     20%{
+         margin-top:500px ;
+         margin-left: 300px;
+     }
+     40%{
+         margin-top: 20px;
+         margin-left:700px;
+     }
+     60%{
+        margin-top: 600px;
+        margin-left: 1400px;
+
+     }
+ }
+ .main12{
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: darkgreen;
+    animation-name: change12;
+    animation-duration: 2s;
+    animation-iteration-count:infinite ;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    animation-direction: reverse ;
+    top: 0px;
+    left: 0px;
+}
+ @keyframes change12{
+    0%{
+         margin-left: 0px;
+ 
+ 
+     }
+     50%{
+         margin-top:600px ;
+         margin-left: 300px;
+     }
+     100%{
+         margin-top:300px;
+         margin-left: 1300px;
+     }
+ }
+ .main13{
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: darkgreen;
+    animation-name: change13;
+    animation-direction: reverse ;
+    animation-duration: 5s;
+    animation-iteration-count:infinite ;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+ @keyframes change13{
+    0%{
+         margin-left: 0px;
+ 
+ 
+     }
+     50%{
+         margin-top:600px ;
+         margin-left: 800px;
+     }
+     70%{
+        margin-top: 600px;
+        margin-left: 700px;
+     }
+     100%{
+         margin-top: 0px;
+         margin-left: 1450px;
+     }
+ }
+ body{
+    background-color: bisque;
+ }

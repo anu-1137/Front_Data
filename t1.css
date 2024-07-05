@@ -1,0 +1,30 @@
+th,td{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* caption{
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration:underline;
+    margin-bottom: 7 px;
+} */
+table{
+    padding: 2PX;
+    border: 3PX solid black;
+    box-shadow: 0PX 0PX 3PX 15PX lightgrey;
+    margin: auto;
+    border-radius: 15px;
+}
+td{
+   
+    background-color: rgb(162, 183, 189);
+}
+th{
+    color: red;
+    background-color: rgb(214, 219, 220);
+}
+td:hover{
+    background-color: aqua;
+}

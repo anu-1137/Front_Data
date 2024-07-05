@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input,label{
+            display: block;
+        }
+        label,legend     {
+            text-transform: capitalize;
+        }
+        fieldset{
+       border: 1px solid gray;
+            
+        }
+        div{
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px 8px gray;
+            width: 27%;
+            margin: auto;
+            font-size: 35px;
+            background-color: azure;
+        
+            
+        }
+        body{
+            background-image: url(21.jpeg);
+            background-size: cover ;
+            
+        }
+        image{
+            width: 100%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    
+    <div>
+    <form action="">
+        <fieldset>
+            <legend>student information</legend>
+
+        <label>student name</label>
+        <input type="text" placeholder="enter your name">
+        <label for="">email id</label>
+        <input type="text" placeholder="enter your emailid">
+        <label for="">address</label>
+        <input type="text" placeholder="enter your address">
+        <label for="">DOB</label>
+        <input type="number" placeholder="enter your birth date">
+        <label for="">aadharcard number </label>
+        <input type="number" placeholder="enter aadhar no.">
+        <label for="">gender:</label>
+        <input style="display: inline-block;" type="radio" name="male">male
+        <input style="display: inline-block;" type="radio" name="female">female
+        <br>
+        <select name="" id="">
+            <option disabled selected value="">select district</option>
+            <option value="">dhule</option>
+            <option value="">solapur</option>
+            <option value="">kolhapur</option>
+            <option value="">satara</option>
+            <option value="">sangli</option>
+            <option value="">nagpur</option>
+        </select>
+        <br>
+        <br>
+        
+        <input type="submit">
+        </fieldset>
+        
+
+    </form>
+</div>
+</body>
+</html>

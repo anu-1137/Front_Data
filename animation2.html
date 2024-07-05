@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid red;
+            width: 200px;
+            height: 200px;
+            background: red;
+            position: absolute;
+            animation: box backwards 4s 2s ;
+        }
+        @keyframes box {
+            0%{
+                margin-left: 0px;
+                margin-top: 0px;
+            }
+            25%{
+                margin-left: 1300px;
+                margin-top: 0px;
+            }
+            50%{
+                margin-left: 1300px;
+                margin-top: 460px;
+            }
+            75%{
+                margin-left: 0px;
+                margin-top: 460px;
+            }
+            100%{
+
+            }
+        }
+        .box1{
+            border: 2px solid red;
+            width: 200px;
+            height: 200px;
+            background: yellow;
+            position: absolute;
+            animation: box1 forwards 1s 2s ;
+        }
+        @keyframes box1{
+            0%{
+                margin-left: 0px;
+                margin-top: 0px; 
+            }
+            100%{
+                margin-left: 1300px;
+                margin-top: 0px;
+            }
+        }
+        .box2{
+            border: 2px solid red;
+            width: 200px;
+            height: 200px;
+            background: green;
+            position: absolute;
+            animation: box2 forwards 2s 2s ;
+        }
+        @keyframes box2{
+            0%{
+                margin-left: 0px;
+                margin-top: 0px;
+            }
+            50%{
+                margin-left: 1300px;
+                margin-top: 0px;
+            }
+            100%{
+                margin-left: 1300px;
+                margin-top: 460px;
+            }
+        }
+        .box3{
+            border: 2px solid red;
+            width: 200px;
+            height: 200px;
+            background: violet;
+            position: absolute;
+            animation: box3 forwards 3s 2s ;
+        }
+        @keyframes box3{
+            0%{
+                margin-left: 0px;
+                margin-top: 0px;
+            }
+            33.33%{
+                margin-left: 1300px;
+                margin-top: 0px;
+            }
+            66.66%{
+                margin-left: 1300px;
+                margin-top: 460px;
+                }
+            100%{
+                margin-left: 0px;
+                margin-top: 460px;
+            }    
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>
